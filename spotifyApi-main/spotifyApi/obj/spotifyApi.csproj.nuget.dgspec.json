@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi\\spotifyApi.csproj": {}
+    "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi-main\\spotifyApi-main\\spotifyApi\\spotifyApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi\\spotifyApi.csproj": {
+    "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi-main\\spotifyApi-main\\spotifyApi\\spotifyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi\\spotifyApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi-main\\spotifyApi-main\\spotifyApi\\spotifyApi.csproj",
         "projectName": "spotifyApi",
-        "projectPath": "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi\\spotifyApi.csproj",
+        "projectPath": "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi-main\\spotifyApi-main\\spotifyApi\\spotifyApi.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\OneDrive - University of Edinburgh\\Documents\\Projects\\spotifyApi-main\\spotifyApi-main\\spotifyApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "SpotifyAPI.Web.Auth": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
